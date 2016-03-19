@@ -1,0 +1,16 @@
+{
+  "name": "strong-pass",
+  "version": "0.1",
+  "description": "Simple javascript password checker",
+  "author": "Kyrylo Shavaran <alltouch@ukr.net>",
+  "main": "src/strong-pass.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "mocha": "^2.4.5"
+  },
+  "engine": "node >= 0.4.1",
+  "license": "MIT"
+}
