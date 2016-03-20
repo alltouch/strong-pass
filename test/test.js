@@ -12,7 +12,7 @@ var marks = {
 function run(password, score, mark){
     assert.equal(strongPass['engine'](password), score, 'score');
     assert.equal(strongPass['toMark'](password), mark, 'mark');
-    assert.equal(strongPass['default'](password), marks[mark], 'number');
+    assert.equal(strongPass(password), marks[mark], 'number');
 }
 
 describe('tests', function() {

@@ -198,6 +198,7 @@ function toMark(password, options){
     }
 }
 
-module.exports['engine'] = strongPass;
-module.exports['toMark'] = toMark;
-module.exports['default'] = toNumber;
+toNumber.engine = strongPass;
+toNumber.toMark = toMark;
+
+module.exports = toNumber;
