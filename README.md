@@ -13,7 +13,7 @@ $ npm install strong-pass --save
 Basic example 
 
 ```javascript
-let strength = StrongPass("Ifdsk6tew") //answer = 3
+let strength = StrongPass("Ifdsk6tew") //answer = 4
 ```
 
 ## Return values
@@ -30,7 +30,7 @@ Result value is number from 1 to 5
 
 ## Configuration
 
-Minimum length for password
+Minimum length for password(in progress)
 
 ```javascript
 let strength = StrongPass("Ifdsk6tew", { minLength: 6 }) //answer = 4

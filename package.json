@@ -1,6 +1,6 @@
 {
   "name": "strong-pass",
-  "version": "0.1",
+  "version": "0.0.1",
   "description": "Simple javascript password checker",
   "author": "Kyrylo Shavaran <alltouch@ukr.net>",
   "main": "src/strong-pass.js",
